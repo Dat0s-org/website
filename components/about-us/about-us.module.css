@@ -1,0 +1,50 @@
+.socialflex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socialgroup {
+    text-align: center;
+}
+
+
+.socialimage {
+    max-width: 150px;
+}
+
+.socialcontainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: #265646;
+    color: #ffffff;
+}
+
+.aboutsocial {
+    margin: 1rem 2em;
+    /* width: 70%; */
+}
+
+.aboutsocial h1  {
+    text-align: center;
+}
+
+.aboutsocial p  {
+    text-align: center;
+}
+
+.aboutsocial h1{
+    margin: 0;
+    color: #ffffff;
+}
+
+.socialimagecontainer {
+    margin: 1rem;
+}
+
+@media (max-width: 600px) {
+    .socialflex {
+        flex-direction: column;
+    }
+}

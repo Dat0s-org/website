@@ -1,0 +1,90 @@
+.bannerimage {
+    margin-bottom: -5px;
+    width: 100%;
+    object-fit: cover;
+    object-position: 70% 90%;
+}
+
+.bannercontainer {
+    margin-bottom: 0px;
+    position: relative;
+    text-align: center;
+    color: #265646;
+}
+
+.bannertext {
+    font-size: 5em;
+    font-weight: 700;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bannersubtext {
+    position: absolute;
+    font-weight: 700;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1100px) {
+    .bannersubtext {
+        position: absolute;
+        font-weight: 700;
+        top: 26%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (max-width: 800px) {
+    .bannersubtext {
+        position: absolute;
+        font-weight: 700;
+        top: 29%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 200px) and (max-width: 665px) {
+    .bannertext {
+        font-size: 4em;
+        font-weight: 700;
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .bannersubtext {
+        position: absolute;
+        font-weight: 700;
+        top: 33%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 320px) and (max-width: 550px) {
+    .bannertext {
+        font-size: 2.5em;
+        font-weight: 700;
+        position: absolute;
+        top: 15%;
+        left: 20%;
+        transform: translate(-50%, -50%);
+    }
+
+    .bannersubtext {
+        font-size: 0.9em;
+        position: absolute;
+        font-weight: 700;
+        line-height: 1.2em;
+        top: 20%;
+        left: 75%;
+        transform: translate(-50%, -50%);
+    }
+}
