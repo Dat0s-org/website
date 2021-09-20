@@ -59,7 +59,7 @@ const DUMMY_EVENTS = [
       title: 'Networking for Data Scientist',
       description:
         'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
-      location: 'This event is going to take place over Zoom https://us02web.zoom.us/j/83296187457?pwd=VG9RR0dSMWZCYU9YSU1rdW8xNDlYQT09.',
+      location: 'This event is gonna take place over Zoom https://us02web.zoom.us/j/83296187457?pwd=VG9RR0dSMWZCYU9YSU1rdW8xNDlYQT09.',
       date: '2022-02-01',
       time: '11:00am - 12:30pm',
       image: 'images/social-event.jpg',
