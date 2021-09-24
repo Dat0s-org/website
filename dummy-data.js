@@ -10,61 +10,61 @@ const DUMMY_EVENTS = [
       image: 'images/games-event.jpg',
       isFeatured: true,
     },
-    {
-      id: 'e2',
-      title: 'Networking for Data Analyst',
-      description:
-        "We know: Networking is no fun if you are an introvert person. That's why we came up with this event - it'll be so much easier. Promised!",
-      location: 'This event is going to take place over Zoom https://us02web.zoom.us/j/83296187457?pwd=VG9RR0dSMWZCYU9YSU1rdW8xNDlYQT09.',
-      date: '2021-05-30',
-      time: '11:00am - 12:30pm',
-      image: 'images/cafecito-talks.jpg',
-      isFeatured: true,
-    },
-    {
-      id: 'e3',
-      title: 'Networking for Data Scientist',
-      description:
-        'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
-      location: 'This event is going to take place over Zoom https://us02web.zoom.us/j/83296187457?pwd=VG9RR0dSMWZCYU9YSU1rdW8xNDlYQT09.',
-      date: '2021-09-10',
-      time: '11:00am - 12:30pm',
-      image: 'images/social-event.jpg',
-      isFeatured: true,
-    },
-    {
-      id: 'e4',
-      title: 'Programming for everyone',
-      description:
-        'Everyone can learn to code! Yes, everyone! In this live event, we are going to go through all the key basics and get you started with programming as well.',
-      location: 'This event is going to take place over Zoom https://us02web.zoom.us/j/83296187457?pwd=VG9RR0dSMWZCYU9YSU1rdW8xNDlYQT09.',
-      date: '2021-10-12',
-      time: '11:00am - 12:30pm',
-      image: 'images/games-event.jpg',
-      isFeatured: true,
-    },
-    {
-      id: 'e5',
-      title: 'Networking for Data Analyst',
-      description:
-        "We know: Networking is no fun if you are an introvert person. That's why we came up with this event - it'll be so much easier. Promised!",
-      location: 'This event is going to take place over Zoom https://us02web.zoom.us/j/83296187457?pwd=VG9RR0dSMWZCYU9YSU1rdW8xNDlYQT09.',
-      date: '2022-01-21',
-      time: '11:00am - 12:30pm',
-      image: 'images/cafecito-talks.jpg',
-      isFeatured: true,
-    },
-    {
-      id: 'e6',
-      title: 'Networking for Data Scientist',
-      description:
-        'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
-      location: 'This event is going to take place over Zoom https://us02web.zoom.us/j/83296187457?pwd=VG9RR0dSMWZCYU9YSU1rdW8xNDlYQT09.',
-      date: '2022-02-01',
-      time: '11:00am - 12:30pm',
-      image: 'images/social-event.jpg',
-      isFeatured: true,
-    },
+    // {
+    //   id: 'e2',
+    //   title: 'Networking for Data Analyst',
+    //   description:
+    //     "We know: Networking is no fun if you are an introvert person. That's why we came up with this event - it'll be so much easier. Promised!",
+    //   location: 'This event is going to take place over Zoom https://us02web.zoom.us/j/83296187457?pwd=VG9RR0dSMWZCYU9YSU1rdW8xNDlYQT09.',
+    //   date: '2021-05-30',
+    //   time: '11:00am - 12:30pm',
+    //   image: 'images/cafecito-talks.jpg',
+    //   isFeatured: true,
+    // },
+    // {
+    //   id: 'e3',
+    //   title: 'Networking for Data Scientist',
+    //   description:
+    //     'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
+    //   location: 'This event is going to take place over Zoom https://us02web.zoom.us/j/83296187457?pwd=VG9RR0dSMWZCYU9YSU1rdW8xNDlYQT09.',
+    //   date: '2021-09-10',
+    //   time: '11:00am - 12:30pm',
+    //   image: 'images/social-event.jpg',
+    //   isFeatured: true,
+    // },
+    // {
+    //   id: 'e4',
+    //   title: 'Programming for everyone',
+    //   description:
+    //     'Everyone can learn to code! Yes, everyone! In this live event, we are going to go through all the key basics and get you started with programming as well.',
+    //   location: 'This event is going to take place over Zoom https://us02web.zoom.us/j/83296187457?pwd=VG9RR0dSMWZCYU9YSU1rdW8xNDlYQT09.',
+    //   date: '2021-10-12',
+    //   time: '11:00am - 12:30pm',
+    //   image: 'images/games-event.jpg',
+    //   isFeatured: true,
+    // },
+    // {
+    //   id: 'e5',
+    //   title: 'Networking for Data Analyst',
+    //   description:
+    //     "We know: Networking is no fun if you are an introvert person. That's why we came up with this event - it'll be so much easier. Promised!",
+    //   location: 'This event is going to take place over Zoom https://us02web.zoom.us/j/83296187457?pwd=VG9RR0dSMWZCYU9YSU1rdW8xNDlYQT09.',
+    //   date: '2022-01-21',
+    //   time: '11:00am - 12:30pm',
+    //   image: 'images/cafecito-talks.jpg',
+    //   isFeatured: true,
+    // },
+    // {
+    //   id: 'e6',
+    //   title: 'Networking for Data Scientist',
+    //   description:
+    //     'You probably need no help with networking in general. But focusing your energy correctly - that is something where most people can improve.',
+    //   location: 'This event is going to take place over Zoom https://us02web.zoom.us/j/83296187457?pwd=VG9RR0dSMWZCYU9YSU1rdW8xNDlYQT09.',
+    //   date: '2022-02-01',
+    //   time: '11:00am - 12:30pm',
+    //   image: 'images/social-event.jpg',
+    //   isFeatured: true,
+    // },
   ];
   
   export function getFeaturedEvents() {
